@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Publications | Serge Paré</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Publications & Analyses</h1>
+
+<nav>
+<a href="index.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="publications.html">Publications</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="container">
+
+<h2>Research & Data Analyses</h2>
+
+<div class="card">
+<h3>Multivariate Analysis of Cereal Production</h3>
+<p>
+Statistical analysis of agricultural production
+factors in Burkina Faso (maize, millet, sorghum).
+</p>
+</div>
+
+<div class="card">
+<h3>Time Series Modelling for Economic Forecasting</h3>
+<p>
+Application of SARIMA and VAR models
+for macroeconomic and telecom indicators.
+</p>
+</div>
+
+<div class="card">
+<h3>Geomarketing Analytics for Telecom Deployment</h3>
+<p>
+Spatial data analysis to identify high-potential
+areas for fiber deployment.
+</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Serge Aristide Paré</p>
+</footer>
+
+</body>
+</html>

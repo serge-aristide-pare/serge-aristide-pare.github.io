@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Projects | Serge Paré</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Projects</h1>
+
+<nav>
+<a href="index.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="publications.html">Publications</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="container">
+
+<h2>AI & Data Science Projects</h2>
+
+<div class="card">
+<h3>FTTx Demand Prediction Model</h3>
+<p>
+Machine learning model predicting fiber internet demand
+to optimize telecom network deployment.
+</p>
+</div>
+
+<div class="card">
+<h3>Credit Risk Scoring Model</h3>
+<p>
+Predictive model using classification algorithms
+(Random Forest, XGBoost) to estimate probability
+of credit default.
+</p>
+</div>
+
+<div class="card">
+<h3>COVID-19 Data Automation</h3>
+<p>
+Automated epidemiological reporting pipeline
+reducing reporting delay from 48h to 2h.
+</p>
+</div>
+
+<div class="card">
+<h3>Electricity Outage Impact Analytics</h3>
+<p>
+Predictive analytics to estimate the impact of
+power outages on telecom revenue.
+</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Serge Aristide Paré</p>
+</footer>
+
+</body>
+</html>
