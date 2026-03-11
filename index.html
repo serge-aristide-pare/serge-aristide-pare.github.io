@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,20 +12,20 @@
 body{
 font-family: Arial, Helvetica, sans-serif;
 margin:0;
-background:#f4f6f9;
+background:#f5f7fb;
 color:#333;
 }
 
 header{
 background:#0f172a;
 color:white;
-padding:40px;
+padding:50px;
 text-align:center;
 }
 
 header h1{
 margin:0;
-font-size:36px;
+font-size:38px;
 }
 
 header p{
@@ -48,7 +49,7 @@ text-decoration:underline;
 }
 
 .container{
-max-width:1000px;
+max-width:1100px;
 margin:auto;
 padding:40px;
 }
@@ -58,23 +59,35 @@ margin-bottom:60px;
 }
 
 h2{
-border-left:5px solid #ff7900;
-padding-left:10px;
+border-left:6px solid #ff7900;
+padding-left:12px;
 }
 
 .card{
 background:white;
 padding:25px;
 margin-top:20px;
-border-radius:6px;
-box-shadow:0 3px 8px rgba(0,0,0,0.1);
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:10px;
+}
+
+.skill{
+background:#eef2f7;
+padding:10px;
+border-radius:5px;
 }
 
 footer{
 background:#0f172a;
 color:white;
 text-align:center;
-padding:20px;
+padding:25px;
 }
 
 </style>
@@ -88,17 +101,20 @@ padding:20px;
 <h1>Lawaguelo Serge Aristide PARÉ</h1>
 
 <p>
-Data Scientist | Artificial Intelligence | Machine Learning
+Data Scientist | Artificial Intelligence | Machine Learning | Big Data
 </p>
 
 <nav>
+
 <a href="#about">About</a>
 <a href="#projects">Projects</a>
-<a href="#publications">Analyses</a>
+<a href="#research">Research</a>
 <a href="#contact">Contact</a>
+
 </nav>
 
 </header>
+
 
 <div class="container">
 
@@ -109,30 +125,35 @@ Data Scientist | Artificial Intelligence | Machine Learning
 <div class="card">
 
 <p>
+
 Data Scientist with more than 6 years of experience in data analytics,
 machine learning and predictive modelling across telecom,
 public health and agriculture sectors.
+
 </p>
 
 <p>
-Currently working in telecom analytics, I design predictive models
-and geomarketing analytics to optimize fiber network deployment
-and customer acquisition strategies.
+
+Currently working in telecom analytics, I design predictive models,
+geomarketing analyses and decision support tools to optimize
+fiber network deployment and customer acquisition strategies.
+
 </p>
 
 <h3>Core Skills</h3>
 
-<ul>
+<div class="skills">
 
-<li>Machine Learning</li>
-<li>Artificial Intelligence</li>
-<li>Python / SQL / R</li>
-<li>Big Data Analytics</li>
-<li>Data Engineering</li>
-<li>Business Intelligence</li>
-<li>Geospatial Analytics</li>
+<div class="skill">Machine Learning</div>
+<div class="skill">Artificial Intelligence</div>
+<div class="skill">Python</div>
+<div class="skill">SQL</div>
+<div class="skill">R</div>
+<div class="skill">Big Data</div>
+<div class="skill">Business Intelligence</div>
+<div class="skill">Geospatial Analytics</div>
 
-</ul>
+</div>
 
 </div>
 
@@ -148,8 +169,23 @@ and customer acquisition strategies.
 <h3>FTTx Demand Prediction Model</h3>
 
 <p>
+
 Machine learning model predicting fiber internet demand
-to optimize telecom network deployment and investment strategy.
+to optimize telecom network investment and deployment strategy.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Customer Churn Prediction</h3>
+
+<p>
+
+Predictive analytics model estimating probability of customer
+churn using classification algorithms.
+
 </p>
 
 </div>
@@ -159,21 +195,23 @@ to optimize telecom network deployment and investment strategy.
 <h3>Credit Risk Scoring Model</h3>
 
 <p>
-Predictive model estimating probability of credit default
-using classification algorithms such as Random Forest
-and Gradient Boosting.
+
+Development of a predictive model to estimate
+probability of credit default using Random Forest and XGBoost.
+
 </p>
 
 </div>
 
 <div class="card">
 
-<h3>COVID-19 Data Automation</h3>
+<h3>COVID-19 Data Analytics</h3>
 
 <p>
-Automated epidemiological reporting system built
-to process health data and generate dashboards
-for decision making.
+
+Automated epidemiological analysis and time series modelling
+during research work at Institut Pasteur.
+
 </p>
 
 </div>
@@ -181,17 +219,19 @@ for decision making.
 </section>
 
 
-<section id="publications" class="section">
+<section id="research" class="section">
 
-<h2>Analyses & Research</h2>
+<h2>Research & Statistical Analyses</h2>
 
 <div class="card">
 
 <h3>Multivariate Analysis of Cereal Production</h3>
 
 <p>
-Statistical study analyzing factors influencing cereal production
-in Burkina Faso using multivariate modelling.
+
+Statistical analysis of agricultural production factors
+in Burkina Faso using multivariate modelling techniques.
+
 </p>
 
 </div>
@@ -201,8 +241,10 @@ in Burkina Faso using multivariate modelling.
 <h3>Geomarketing Analytics for Telecom</h3>
 
 <p>
-Spatial analysis used to identify high-potential areas
+
+Spatial analysis identifying high-potential zones
 for fiber network deployment.
+
 </p>
 
 </div>
@@ -220,16 +262,22 @@ for fiber network deployment.
 
 <p>Phone : +223 76 29 99 02</p>
 
-<p>LinkedIn :  
+<p>
+
+LinkedIn :
 <a href="https://linkedin.com" target="_blank">
 View Profile
 </a>
+
 </p>
 
-<p>GitHub :  
+<p>
+
+GitHub :
 <a href="https://github.com" target="_blank">
 View Projects
 </a>
+
 </p>
 
 </div>
